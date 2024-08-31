@@ -14,6 +14,8 @@ int createVector(int **v){
     
     *v = (int *) malloc(tam * sizeof(int));
     
+    free(v);
+
     return tam;
 }
 // procedimento para inserir vetor
