@@ -13,10 +13,10 @@ int createVector(int **v){
     }while(tam < 1 || tam > TAM);
     
     *v = (int *) malloc(tam * sizeof(int));
-    
-    free(v);
 
     return tam;
+
+    free(v);
 }
 // procedimento para inserir vetor
 void insertVector(int v[], int tam){
